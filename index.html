@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>calculate bill</h1>
+    <div class="bill">
+        <div class="calculate">
+            <label for="">order-1</label>
+            <input type="number" id="item1"><br>
+            <label for="">order-2</label>
+            <input type="number" id="item2"><br>
+            <label for="">order-3</label>
+            <input type="number" id="item3"><br>
+            <label for="">order-4</label>
+            <input type="number" id="item4"><br>
+            <button onclick="calculatebill()"> calculate</button>
+        </div>
+        <div class="table-sec">
+            <table border="1">
+                <tr bgcolor="lavender">
+                    <th>product</th>
+                    <th>price</th>
+                </tr>
+                <tr bgcolor="lavender">
+                    <th>item-1</th>
+                    <th id="price1"></th>
+                </tr>
+                <tr bgcolor="lavender">
+                    <th>item2</th>
+                    <th id="price2"></th>
+                </tr>
+                <tr bgcolor="lavender">
+                    <th>item3</th>
+                    <th id="price3"></th>
+                </tr>
+                <tr bgcolor="lavender">
+                    <th>item3</th>
+                    <th id="price4"></th>
+                </tr>
+                <tr bgcolor="lavender">
+                    <th >total</th>
+                    <th id="total"></th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
